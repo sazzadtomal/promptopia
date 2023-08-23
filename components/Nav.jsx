@@ -20,9 +20,7 @@ const Nav = () => {
         setUpProviders()
     },[])
 
-    console.log(providers)
-
-
+  
   return (
     <nav className="flex-between w-full mb-6 pt-3">
          <Link href="/" className="flex gap-2 flex-center" >
