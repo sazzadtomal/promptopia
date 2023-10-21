@@ -42,7 +42,7 @@ const CreatePrompt = () => {
 
        }
        catch(error){
-           console.log(error)
+           console.log("error is"+error)
        }
        finally{
         setSubmitting(false)
